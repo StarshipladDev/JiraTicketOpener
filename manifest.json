@@ -1,0 +1,26 @@
+﻿{
+  "name": "Starshiplad's JIRA extension",
+  "version": "1.0",
+  "description": "Opens all JIRA tickets when in the \"Only My Tickets\" tab ",
+  "permissions": [ "activeTab", "declarativeContent" ],
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": true
+  },
+  "page_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "Logo16.png",
+      "32": "Logo32.png",
+      "48": "Logo64.png",
+      "128": "Logo128.png"
+    }
+  },
+  "icons": {
+    "16": "Logo16.png",
+    "32": "Logo32.png",
+    "48": "Logo64.png",
+    "128": "Logo128.png"
+  },
+  "manifest_version": 2
+}
